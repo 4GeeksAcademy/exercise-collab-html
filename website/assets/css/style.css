@@ -1,3 +1,23 @@
 body{
     background: #BDBDBD;
 }
+.service{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(128, 128, 128, 0.3);
+    border-bottom: 1px solid rgba(128, 128, 128, 0.3);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.encabezado{
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+}
+.service-body{
+    width: 480px;
+    margin-left: 20px;
+}

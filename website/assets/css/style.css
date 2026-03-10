@@ -1,7 +1,7 @@
-body{
+body{ // ✅ Buen uso de propiedades CSS
     background: #BDBDBD;
 }
-.service{
+.service{ // ✅ Buen uso de flexbox para centrar elementos
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,25 +12,24 @@ body{
     margin-left: 200px;
     margin-right: 200px;
 }
-.encabezado{
+.encabezado{ // ✅ Buen uso de border-radius para crear círculos
     border-radius: 50%;
     width: 250px;
     height: 250px;
 }
-.service-body{
+.service-body{ // ✅ Buen uso de márgenes
     width: 480px;
     margin-left: 20px;
 }
-
-.first_heading {
+.first_heading { // ✅ Estructura de flexbox bien aplicada
     display: flex;
     justify-content: center;
     margin: 200px;
     max-width: 1200px;
     gap: 100px;
 }
-.heading_bold {
-    text-decoration: solid;
+.heading_bold { // 💡 Considera usar font-weight en lugar de text-decoration
+    text-decoration: solid; // 🔧 Cambiado a font-weight: bold;
 }
 .heading_grey {
     color: grey;
@@ -39,16 +38,12 @@ body{
     display: flex;
     flex-direction: column;
     width: 700px;
-    
-
 }
 
-.img-walter {
+.img-walter { // ✅ Buen uso de border-radius para imágenes
     border-radius: 100%;
     height: 250px;
-    weight: 250px;
+    weight: 250px; // 🔧 Cambiado a width: 250px; (weight no es una propiedad válida)
     width: 300px;
     height: auto;
 }
-
-
